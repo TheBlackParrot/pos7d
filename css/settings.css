@@ -1,0 +1,25 @@
+form {
+	line-height: 32px;
+	margin-top: 8px;
+	padding-bottom: 48px;
+}
+.tip {
+	padding-bottom: 32px;
+}
+.settings_input_wrapper {
+	width: 400px;
+	margin-right: 500px;
+}
+.settings_input {
+	float: right;
+	margin-top: 4px;
+}
+.settings_input input {
+	width: 256px;
+}
+.av {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 8px;
+}

@@ -1,0 +1,60 @@
+.posts {
+	padding-bottom: 64px;
+}
+.threads table {
+	width: 100%;
+	table-layout: fixed;
+	margin-bottom: 32px;
+}
+.threads tr td:nth-child(1) { width: 24px; }
+.threads tr td:nth-child(2) { width: 50%; }
+.threads tr td:nth-child(3) { width: 20%; }
+.threads tr td:nth-child(4) { width: 10%; text-align: center; }
+.threads tr td {
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #333;
+}
+.threads tr:nth-child(1) {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 10pt;
+	font-weight: 400;
+	color: #777;
+}
+.threads tr:nth-child(1) td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.threads tr:nth-child(n+2) td:nth-child(1) {
+	line-height: 32px;
+	text-align: center;
+}
+.threads tr:nth-child(n+2) td:nth-child(1) .oi[data-glyph]:before {
+	line-height: 32px;
+	padding: 0;
+	margin: 0;
+	font-size: 10pt;
+	position: relative;
+	top: 2px;
+}
+.threads tr:nth-child(n+2) {
+	height: 36px;
+	line-height: 36px;
+	background-color: #eee;
+	border-top: 1px solid #ddd;
+}
+.threads tr:nth-child(n+2) td:nth-child(2) {
+	background-color: #fff;
+}
+.threads tr:nth-last-child(1) {
+	border-bottom: 1px solid #ddd;
+}
+.threads a {
+	color: #333;
+}
+.threads a:hover {
+	color: #999;
+}
+.locked {
+	color: #FFC107;
+}

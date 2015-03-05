@@ -1,0 +1,233 @@
+.posts {
+	padding-bottom: 64px;
+}
+.post {
+	border-top: 1px solid #ddd;
+	min-height: 64px;
+	float: left;
+	width: 100%;
+	margin-bottom: 24px;
+}
+.post .av {
+	float: left;
+	height: 64px;
+	width: 64px;
+	background-color: #eee;
+	position: relative;
+	top: -1px;
+}
+.post .av img {
+	height: 64px;
+	width: 64px;
+}
+.post .av .av_info {
+	font-size: 7pt;
+}
+.av_info .av_info_l {
+	text-align: left;
+	font-weight: 700;
+}
+.av_info .av_info_r {
+	float: right;
+}
+.post .content {
+	padding-left: 8px;
+	padding-top: 8px;
+	float: left;
+	width: calc(100% - 72px);
+	max-width: calc(100% - 72px);
+}
+
+.info {
+	padding-left: 8px;
+	float: left;
+	background-color: #eee;
+	width: calc(100% - 72px);
+	border-bottom: 1px solid #ddd;
+	color: #aaa;
+}
+.info em {
+	font-style: italic;
+	font-size: 8pt;
+	padding-left: 8px;
+}
+.info a {
+	color: #777;
+	text-decoration: none;
+}
+
+.post p {
+	padding-bottom: 24px;
+}
+.post strong {
+	font-weight: 700;
+}
+.post em {
+	font-style: italic;
+}
+.post blockquote { 
+	display: block;
+	margin-left: 28px;
+	padding-left: 12px;
+	margin-right: 40px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border-left: 1px solid #777;
+	color: #777;
+}
+.post blockquote p {
+	padding: 0;
+}
+.post a {
+	color: #0af;
+}
+.post .info a {
+	color: #777;
+}
+.post a:hover {
+	color: #000;
+}
+.post pre {
+	font-family: monospace;
+	background-color: #eee;
+	padding: 8px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: 1px solid #ddd;
+	white-space: pre;
+	overflow-x: auto;
+	margin-right: 8px;
+}
+.post tt, .post code {
+	font-family: monospace;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #777;
+}
+.post pre code {
+	background-color: #eee;
+	padding: 0;
+	font-size: 8pt;
+}
+.post h1 {
+	font-size: 18pt;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 4px;
+}
+.post h2 {
+	font-size: 14pt;
+	font-family: "Roboto Condensed";
+	border-bottom: 1px solid #eee;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.post h3 {
+	font-size: 11pt;
+	font-weight: 300;
+	font-family: "Roboto Condensed";
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.post ul { 
+   list-style-type: disc; 
+   list-style-position: inside; 
+}
+.post ol { 
+   list-style-type: decimal; 
+   list-style-position: inside; 
+}
+.post ul ul, .post ol ul { 
+   list-style-type: circle; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
+.post ol ol, ul ol { 
+   list-style-type: lower-latin; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
+.post hr {
+	margin-left: 64px;
+	margin-right: 64px;
+	border: 0;
+	border-top: 1px solid #aaa;
+}
+.post table {
+	background-color: #eee;
+	border: 1px solid #ddd;
+}
+.post table th, .post table td {
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+.post table th {
+	background-color: #ddf;
+	border: 1px solid #ccf;
+	color: #779;
+	font-weight: bold;
+}
+.post .post_buttons {
+	float: right;
+	padding-right: 8px;
+}
+.post .post_buttons .oi {
+	font-size: 8pt;
+}
+.post .post_buttons a {
+	margin-left: 8px;
+}
+pre {
+	position: relative;
+	overflow: hidden;
+	font-family: monospace;
+	background-color: #eee;
+	padding: 8px;
+	border: 1px solid #ddd;
+	white-space: pre;
+	overflow-x: auto;
+	margin-bottom: 8px;
+}
+
+pre code {
+	display: block;
+	overflow-y: auto;
+	font-weight: 300;
+	font-family: monospace;
+	font-size: 10pt;
+}
+
+code.has-numbering {
+	margin-left: 24px;
+}
+.pre-numbering {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	padding: 0px 5px 0px 5px;
+	border-right: 1px solid #ddd;
+	background-color: #F3F3F3;
+	text-align: right;
+	font-family: monospace;
+	color: #aaa;
+	list-style: none !important;
+	font-size: 10pt;
+}
+.post_number {
+	float: right;
+	padding-right: 8px;
+}
+
+.preview_loader .post {
+	padding-top: 8px;
+	padding-left: 8px;
+}
+.post_info {
+	width: 100%;
+	float: left;
+	margin-top: 16px;
+}
+.av_wrapper {
+	height: 64px;
+	width: 64px;
+}

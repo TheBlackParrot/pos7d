@@ -1,0 +1,81 @@
+.posts {
+	padding-bottom: 64px;
+}
+.post {
+	border-top: 1px solid #ddd;
+	min-height: 64px;
+	float: left;
+	width: 100%;
+	margin-bottom: 24px;
+}
+.post .av {
+	float: left;
+	height: 128px;
+	width: 128px;
+	margin: 8px;
+	border: 1px solid #000;
+}
+.post .av img {
+	height: 128px;
+	width: 128px;
+}
+.post .content {
+	padding-left: 8px;
+	padding-top: 8px;
+	float: left;
+	max-width: calc(100% - 72px);
+}
+.info {
+	padding-left: 8px;
+	float: left;
+	background-color: #eee;
+	width: calc(100% - 72px);
+	border-bottom: 1px solid #ddd;
+	color: #aaa;
+}
+.info a {
+	color: #777;
+	text-decoration: none;
+}
+.post p {
+	padding-bottom: 24px;
+}
+.post strong {
+	font-weight: 700;
+}
+.post em {
+	font-style: italic;
+}
+.post a {
+	color: #0af;
+}
+.post .info a {
+	color: #777;
+}
+.post a:hover {
+	color: #000;
+}
+.post h1 {
+	background-color: #eee;
+}
+.post hr {
+	margin-left: 64px;
+	margin-right: 64px;
+	border: 0;
+	border-top: 1px solid #aaa;
+}
+.post table td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 16px;
+}
+.post table td:nth-child(1) {
+	font-weight: 700;
+}
+.post .post_buttons {
+	float: right;
+	padding-right: 8px;
+}
+.post .post_buttons .oi {
+	font-size: 8pt;
+}
